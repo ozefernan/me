@@ -9,9 +9,9 @@ export const Content = styled.div`
   grid-template-columns: 2fr 2fr;
 
   max-width: 1120px;
-  height: calc(100vh - 114px);
+  height: calc(100vh - 5rem); // header height
   margin: 0 auto;
-  padding: 0 2rem 5rem;
+  padding: 5rem 2rem;
 `;
 
 export const DescriptionContent = styled.div`
@@ -22,7 +22,6 @@ export const DescriptionContent = styled.div`
   max-width: 1120px;
   height: calc(100vh - 114px);
   margin: 0 auto;
-  padding: 5rem 0 5rem 2rem;
 `;
 
 export const HighlightTitle = styled.div`

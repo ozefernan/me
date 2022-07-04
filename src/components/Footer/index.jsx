@@ -1,9 +1,9 @@
 import {
   AiOutlineMail,
   AiOutlineGithub,
+  AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineInstagram,
-  AiOutlineTwitter,
 } from "react-icons/ai";
 import { BsSpotify } from "react-icons/bs";
 

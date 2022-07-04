@@ -1,8 +1,8 @@
 import {
-  SiJavascript,
-  SiTypescript,
   SiReact,
   SiNodedotjs,
+  SiJavascript,
+  SiTypescript,
 } from "react-icons/si";
 
 import Blob from "../../assets/svg/blob.svg";
@@ -12,13 +12,13 @@ import RectangleTwo from "../../assets/svg/rectangleTwo.svg";
 
 import {
   Text,
+  Tech,
   Content,
+  TechList,
   Container,
+  ImageContent,
   HighlightTitle,
   DescriptionContent,
-  ImageContent,
-  TechList,
-  Tech,
 } from "./styles";
 
 export function AboutMe() {

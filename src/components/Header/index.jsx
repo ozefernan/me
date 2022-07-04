@@ -4,11 +4,11 @@ import { CgMenuRight } from "react-icons/cg";
 import { LogoIcon } from "../../assets/icons/logo";
 
 import {
-  Container,
   Content,
-  IconContent,
+  Container,
   MenuButton,
   VerticalHr,
+  IconContent,
 } from "./styles";
 
 function useScrollDirection() {
