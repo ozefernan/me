@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     color: #666666;
     background: #000000;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,17,42,1) 49%, rgba(19,19,29,1) 83%);
     -webkit-font-smoothing: antialiased;
   }
 
@@ -44,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: none;
+    background: #000000;
   }
 
   /* Handle */

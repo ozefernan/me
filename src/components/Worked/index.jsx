@@ -5,15 +5,15 @@ import { IoMdArrowDropright } from "react-icons/io";
 import {
   Button,
   Content,
+  JobTitle,
   Container,
+  JobPeriod,
   ButtonList,
   JobContent,
   JobsContent,
-  HighlightTitle,
-  JobTitle,
-  JobPeriod,
-  JobDescription,
   JobContainer,
+  HighlightTitle,
+  JobDescription,
 } from "./styles";
 
 export function Worked() {

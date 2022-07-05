@@ -41,9 +41,7 @@ function useScrollDirection() {
 
 export function Header() {
   return (
-    <Container
-      className={`${useScrollDirection() === "down" ? "hide" : "show"}`}
-    >
+    <Container className={`${useScrollDirection() === "down" ? "hide" : ""}`}>
       <Content>
         <IconContent>
           <LogoIcon />

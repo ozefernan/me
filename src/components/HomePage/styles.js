@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.div`
   position: relative;
 `;
 
@@ -9,12 +9,13 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
 
   max-width: 1120px;
-  height: calc(100vh - 114px);
+  height: calc(100vh - 5rem);
   margin: 0 auto;
   padding-top: 82px;
-  padding: 5.125rem 2rem 5rem;
+  padding: 5rem 2rem;
 `;
 
 export const HighlightTitle = styled.div`
@@ -44,4 +45,37 @@ export const Description = styled.div`
   max-width: 510px;
 
   font-size: 1.25rem;
+`;
+
+export const Scroll = styled.span`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  bottom: 60px;
+
+  width: 100%;
+
+  animation: updown 2s ease infinite;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+
+  &.hide {
+    opacity: 0;
+  }
+
+  @keyframes updown {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 10px);
+    }
+    to {
+      transform: translate(0, -0px);
+    }
+  }
 `;
